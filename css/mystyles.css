@@ -1,0 +1,84 @@
+/* --- 1. 更換全站字體 --- */
+/* 選取 body 和所有標題，以及 subheading，將字體設為思源黑體 */
+/* "Noto Sans TC" 必須對應我們在 HTML 中 <link> 引入的字體名稱 */
+body,
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1,
+.subheading {
+    font-family: "Noto Sans TC", sans-serif;
+    text-transform: none;
+    /* 取消模板預設的英文字母大寫 */
+}
+
+body {
+    color: #010B40;
+}
+
+h1 {
+    font-size: calc(1.725rem + 3vw);;
+    font-weight: 500;
+}
+
+/* 範例中，我們保留 h2 的大寫樣式，讓區塊標題更顯眼 */
+h2 {
+    text-transform: uppercase;
+}
+
+.subheading {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.subheading p {
+    margin-bottom: 0;
+}
+
+:root {
+    --bs-primary-rgb: 2, 15, 89; /* 深藍色 */
+    --bs-bg-opacity: 1;
+    --bs-link-color: rgb(2, 15, 89);
+    --bs-link-hover-color: rgb(2, 15, 89);
+}
+
+.social-icons .social-icon {
+    background-color: rgb(2, 15, 89);
+}
+
+.social-icons .social-icon:hover {
+    background-color: #0339A6;
+}
+
+section.resume-section {
+    background-color: #FFFACD; /* 米黃色背景 */
+}
+
+.list-group-item {
+    background-color: #FFFACD; /* 米黃色背景 */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(2, 15, 89);
+    color:#FFFACD;
+}
+
+nav {
+    background-image: url("../assets/img/gravel.png");
+}
+
+.card {
+    background-color: #FFFACD; /* 米黃色背景 */
+}
