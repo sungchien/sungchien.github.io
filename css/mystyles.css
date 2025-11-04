@@ -44,10 +44,10 @@ h2 {
 }
 
 :root {
-    --bs-primary-rgb: 2, 15, 89; /* 深藍色 */
+    --bs-primary-rgb: 46, 139, 87; /* 深藍色 */
     --bs-bg-opacity: 1;
-    --bs-link-color: rgb(2, 15, 89);
-    --bs-link-hover-color: rgb(2, 15, 89);
+    --bs-link-color: rgb(46, 139, 87);
+    --bs-link-hover-color: rgb(46, 139, 87);
 }
 
 .social-icons .social-icon {
